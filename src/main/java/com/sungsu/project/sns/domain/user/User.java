@@ -21,15 +21,8 @@ public class User {
     private Timestamp updatedAt;
     private Timestamp deletedAt;
 
-    public static User fromEntity(UserEntity entity){
-        return new User(
-                entity.getId(),
-                entity.getUserName(),
-                entity.getPassword(),
-                entity.getRole(),
-                entity.getRegitsterdAt(),
-                entity.getUpdatedAt(),
-                entity.getDeletedAt()
-        );
-    }
+ public String testfeature_2(){
+     System.out.println("this is testfeature3");
+     return "";
+ }
 }
