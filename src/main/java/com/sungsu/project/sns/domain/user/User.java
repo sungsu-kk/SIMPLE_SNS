@@ -21,15 +21,9 @@ public class User {
     private Timestamp updatedAt;
     private Timestamp deletedAt;
 
-    public static User fromEntity(UserEntity entity){
-        return new User(
-                entity.getId(),
-                entity.getUserName(),
-                entity.getPassword(),
-                entity.getRole(),
-                entity.getRegitsterdAt(),
-                entity.getUpdatedAt(),
-                entity.getDeletedAt()
-        );
+
+    public void testFeater(){
+        System.out.println("test freature");
     }
+
 }
