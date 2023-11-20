@@ -26,4 +26,8 @@ public class User {
         System.out.println("test freature");
     }
 
+    public void test_Feature(){
+        System.out.println("hihihi");
+    }
+
 }
